@@ -110,7 +110,7 @@ export default {
     ...mapGetters({
       carListDetail: "detail/getListDetail",
     }),
-    currentImg: function () {
+    currentImg() {
       return this.images[Math.abs(this.currentIndex) % this.images.length];
     },
   },
@@ -134,14 +134,13 @@ export default {
       this.selectPhoto = photo;
       this.modalShow = true;
     },
-    startSlide: function () {
+    startSlide() {
       this.timer = setInterval(this.next, 4000);
     },
-
-    next: function () {
+    next() {
       this.currentIndex += 1;
     },
-    prev: function () {
+    prev() {
       this.currentIndex -= 1;
     },
   },
