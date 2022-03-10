@@ -1,0 +1,33 @@
+.card {
+  width: 16.8rem;
+}
+.card:hover {
+  cursor: pointer;
+  border: 1px solid #000;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 12%);
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-text {
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-desc {
+  font-size: 0.75rem;
+}
+.card-price {
+  font-weight: 600;
+}
+.card-city {
+  font-size: 0.85rem;
+  color: #706d6e;
+}

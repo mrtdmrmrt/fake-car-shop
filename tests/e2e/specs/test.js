@@ -1,8 +1,8 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-describe("My First Test", () => {
+describe("Card Component Test", () => {
   it("Visits the app root url", () => {
     cy.visit("/");
-    cy.contains("h1", "Welcome to Your Vue.js App");
+    cy.contains("h6", "R19 Europa 1.6 RT Manuel");
   });
 });

@@ -1,0 +1,79 @@
+.car-detail {
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 12%);
+  border-radius: 6px;
+  padding: 44px 20px;
+}
+.carousel {
+  height: 500px;
+}
+.carousel-inner {
+  height: 500px;
+}
+.carousel-item {
+  height: 500px;
+}
+.img-fluid {
+  height: 500px;
+  object-fit: fill;
+  cursor: pointer;
+}
+.slider-wrapper > div {
+  height: 500px;
+}
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.7s ease;
+  overflow: hidden;
+  visibility: visible;
+  position: absolute;
+  width: 92%;
+  opacity: 1;
+}
+
+.fade-enter,
+.fade-leave-to {
+  visibility: hidden;
+  width: 92%;
+  opacity: 0;
+}
+.custom-slider {
+  height: 500px;
+}
+.custom-slider img {
+  height: 500px;
+  width: 100%;
+  object-fit: fill;
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.7s ease;
+  border-radius: 0 4px 4px 0;
+  text-decoration: none !important;
+  user-select: none;
+}
+
+.next {
+  right: 20px;
+}
+
+.prev {
+  left: 20px;
+}
+
+.prev:hover,
+.next:hover {
+  font-size: 28px;
+}
